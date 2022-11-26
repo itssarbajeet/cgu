@@ -12,6 +12,7 @@
         android:layout_width="154dp"
         android:layout_height="88dp"
         android:background="@color/white_trans"
+        android:contentDescription="CGU LOGO"
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -23,7 +24,7 @@
         app:layout_constraintVertical_bias="0.048"
         app:srcCompat="@drawable/cgu" />
 
-    <EditText
+    <TextView
         android:id="@+id/editTextTextMultiLine"
 
 
